@@ -1,0 +1,46 @@
+\documentclass[12pt,twoside,bind,ams,a4paper]{hepthesis}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern,hfoldsty,charter}
+% Schriftarten: Variante 2
+%\usepackage{charter}
+% Paket fuer mathematische Symbole
+\usepackage{amssymb}
+% Paket fuer Literaturverzeichnis nach DIN
+%\usepackage{natbib}
+% Literaturzitate in eckige Klammern setzen
+%\setcitestyle{square}
+
+% Paket zum Einbinden von ein- oder mehrseitigen PDFs
+\usepackage{pdfpages}
+\usepackage{url}
+% Paket zur typographisch richtigen Angabe von Groessen mit SI-Masseinheiten
+\usepackage[squaren]{SIunits}
+% Paket fuer Bra-/Ket-Vektor-Schreibweise, mit automatischer Groessenanpassung
+\usepackage{braket}
+
+\title{Impact of stellar variability on the observational appearance of protoplanetary disks}
+\author{Alexandra Botnariuc}
+
+\begin{document}
+
+\begin{frontmatter}
+\input{foreword}
+\end{frontmatter}
+
+\begin{mainmatter}
+\input{kapitel-1}
+\input{kapitel-2}
+\end{mainmatter}
+
+% Anhaenge -- auskommentieren falls nicht ben\"{o}tigt.
+\begin{appendices}
+\input{anhang}
+\end{appendices}
+
+\begin{backmatter}
+\input{teil-nachspann}
+\end{backmatter}
+
+\end{document}

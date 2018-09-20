@@ -1,0 +1,42 @@
+\chapter{Einleitung}
+\label{kap-einleitung}
+
+% Seitennummerierung auf arabische Zahlen umstellen, neu beginnend im Kapitel 1
+\pagenumbering{arabic}
+
+\chapterquote{Ach, die Physik! Die ist ja für die Physiker viel zu schwer!}{David Hilbert (Bsp. für Einbindung eines einleitenden Zitats)}
+
+Der Umfang der Bachelorarbeit sollte 20-30 Seiten betragen, der Umfang einer Masterarbeit 40-80 Seiten.
+Dabei sind das Deckblatt, das  Inhaltsverzeichnis  und  die  Angaben  zur  verwendeten  Literatur  nicht  zu  zählen, sondern nur die reinen Textseiten, einschließlich der Abbildungen.
+
+Die Gliederung und der Inhalt der Kapitel sind mit dem Betreuer der Arbeit abzusprechen. Maßgebend für inhaltliche und formale Anforderungen sind natürlich die (Bachelor, Master)-\-Prüfungs\-ordnungen.
+
+\paragraph{Technische Hinweise:}
+\begin{itemize}
+  \item Grundlayout und Strukturierung dieser Vorlage basieren auf der Latex-Klasse ``hepthesis'' von Andy Buckley. Im Ordner ``anleitungen'' findet sich die Anleitung mit weiteren Optionen und Befehlen hierzu.
+  \item Die Literaturliste orientiert sich an der DIN 1505. Dazu werden das Paket ``natbib'' mit erweiterten Zitationsbefehlen (s.a. Ordner ``anleitungen'') und die Stile (*.bst-Dateien) aus dem ``din1505''-Paket verwendet. 
+  \item Das Dokument ist mit ``pdflatex'' zu übersetzen, also \textit{pdflatex abschlussarbeit} auf der Kommandozeile bzw. im Latex-Editor ``Kile'' mit der Projekt-Einstellung ``Schnell\-erstellung: PDF-Latex + ViewPDF''.
+  \item Die Literaturliste im Dokument wird mit Hilfe der Literaturdatenbank (*.bib-Datei) erzeugt. ``Kile'' erledigt das automatisch. Der entsprechende Kommando\-zeilen-Befehl lautet \textit{bibtex abschlussarbeit}, danach muss noch einmal \textit{pdflatex abschlussarbeit} folgen. Dieser Vorgang muss -- wie bei Latex üblich -- eventuell mehrfach wiederholt werden.
+  \item Umlaute und Sonderzeichen: Man muss darauf achten, dass die in der Latex-Präambel angegebene Code-Tabelle (\textit{usepackage inputenc}-Befehl) mit der im Latex-Editor verwendeten übereinstimmt. Neuere Linux-Distributionen verwenden automatisch Unicode (UTF8), damit werden im Prinzip alle bekannten Sonderzeichen und selbst nicht-lateinische Schriften wie kyrillisch, wie getippt angezeigt.
+\end{itemize}
+
+Hier folgt der Text zu Kapitel 1 mit Literaturverweisen wie \cite{Jackson1999,Einstein1925} oder
+\cite{HaugKoch2004,Meinke2005,Holm1998}.
+
+\section{Physikalische Grundlagen}
+Der Hamiltonoperator eines Teilchens ist \cite{Nolting2007}
+\begin{equation}\label{ham}
+\hat{H}=\frac{\hat{\vec{p}\,}^2}{2m}\,+\,V(\hat{\vec{r}}\,)
+\end{equation}
+Der Erwartungswert der Energie ergibt sich aus 
+\begin{align}
+  \label{gl-erwartungswert}
+  \Braket{\Psi_0|\hat H|\Psi_0} = E,
+\end{align}
+mit dem Hamiltonoperator aus Gl.\ \eqref{ham}.
+
+
+\section{Besonderheiten des verwendeten Materials}
+
+\subsection{Effektive-Massen-Näherung}
+weitere Untergliederung m\"oglich
