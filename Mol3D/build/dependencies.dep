@@ -1,0 +1,309 @@
+./build/basic_type.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/common_type.o
+
+./build/roots.o : \
+	./build/datatype.o \
+	./build/var_global.o
+
+./build/math_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o
+
+./build/var_global.o : \
+	./build/datatype.o
+
+./build/randgen_type.o : \
+	./build/datatype.o \
+	./build/common_type.o
+
+./build/fluxes_type.o : \
+	./build/basic_type.o \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/common_type.o
+
+./build/model_type.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/common_type.o \
+	./build/math_mod.o
+
+./build/grid_type.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/model_type.o \
+	./build/common_type.o \
+	./build/math_mod.o
+
+./build/gas_type.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/common_type.o
+
+./build/photon_type.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/common_type.o \
+	./build/math_mod.o
+
+./build/dust_type.o : \
+	./build/datatype.o \
+	./build/gas_type.o \
+	./build/basic_type.o \
+	./build/model_type.o \
+	./build/photon_type.o \
+	./build/var_global.o \
+	./build/math_mod.o \
+	./build/common_type.o \
+	./build/randgen_type.o \
+	./build/grid_type.o
+
+./build/interact_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/grid_type.o \
+	./build/dust_type.o \
+	./build/model_type.o \
+	./build/randgen_type.o \
+	./build/photon_type.o \
+	./build/basic_type.o \
+	./build/fluxes_type.o \
+	./build/start_mod.o \
+	./build/immediate_mod.o \
+	./build/scatter_mod.o \
+	./build/observe_mod.o \
+	./build/math_mod.o
+
+./build/immediate_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/grid_type.o \
+	./build/dust_type.o \
+	./build/model_type.o \
+	./build/randgen_type.o \
+	./build/photon_type.o \
+	./build/basic_type.o \
+	./build/fluxes_type.o \
+	./build/math_mod.o
+
+./build/scatter_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/grid_type.o \
+	./build/dust_type.o \
+	./build/model_type.o \
+	./build/randgen_type.o \
+	./build/photon_type.o \
+	./build/basic_type.o \
+	./build/fluxes_type.o \
+	./build/math_mod.o \
+	./build/roots.o
+
+./build/initiate.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/basic_type.o \
+	./build/fluxes_type.o \
+	./build/model_type.o \
+	./build/grid_type.o \
+	./build/dust_type.o \
+	./build/gas_type.o \
+	./build/source_type.o \
+	./build/parser_mod.o \
+	./build/fileio.o
+
+./build/model_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/model_type.o \
+	./build/math_mod.o
+
+./build/source_type.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/dust_type.o \
+	./build/math_mod.o \
+	./build/common_type.o \
+	./build/randgen_type.o
+
+./build/grd_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/basic_type.o \
+	./build/dust_type.o \
+	./build/grid_type.o \
+	./build/gas_type.o \
+	./build/model_type.o \
+	./build/math_mod.o \
+	./build/fileio.o \
+	./build/model_mod.o \
+	./build/parser_mod.o
+
+./build/fileio.o : \
+	./build/var_global.o \
+	./build/datatype.o \
+	./build/grid_type.o \
+	./build/basic_type.o \
+	./build/dust_type.o \
+	./build/model_type.o \
+	./build/fluxes_type.o \
+	./build/gas_type.o \
+	./build/math_mod.o
+
+./build/simulation_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/basic_type.o \
+	./build/randgen_type.o \
+	./build/fluxes_type.o \
+	./build/model_type.o \
+	./build/grid_type.o \
+	./build/gas_type.o \
+	./build/dust_type.o \
+	./build/source_type.o \
+	./build/grd_mod.o \
+	./build/math_mod.o \
+	./build/fileio.o \
+	./build/transfer_mod.o \
+	./build/lvlpop_mod.o \
+	./build/temp_mod.o \
+	./build/linkedlist_mod.o \
+	./build/mcrt_mod.o \
+	./build/raytrace_mod.o
+
+./build/raytrace_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/basic_type.o \
+	./build/fluxes_type.o \
+	./build/model_type.o \
+	./build/grid_type.o \
+	./build/gas_type.o \
+	./build/dust_type.o \
+	./build/source_type.o \
+	./build/photon_type.o \
+	./build/grd_mod.o \
+	./build/math_mod.o \
+	./build/model_mod.o \
+	./build/transfer_mod.o \
+	./build/linkedlist_mod.o
+
+./build/mcrt_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/basic_type.o \
+	./build/fluxes_type.o \
+	./build/model_type.o \
+	./build/grid_type.o \
+	./build/gas_type.o \
+	./build/dust_type.o \
+	./build/source_type.o \
+	./build/photon_type.o \
+	./build/grd_mod.o \
+	./build/math_mod.o \
+	./build/observe_mod.o \
+	./build/transfer_mod.o \
+	./build/randgen_type.o \
+	./build/start_mod.o \
+	./build/interact_mod.o \
+	./build/fileio.o
+
+./build/observe_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/basic_type.o \
+	./build/fluxes_type.o \
+	./build/model_type.o \
+	./build/grid_type.o \
+	./build/gas_type.o \
+	./build/dust_type.o \
+	./build/source_type.o \
+	./build/photon_type.o \
+	./build/scatter_mod.o \
+	./build/grd_mod.o \
+	./build/math_mod.o \
+	./build/transfer_mod.o
+
+./build/transfer_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/grid_type.o \
+	./build/dust_type.o \
+	./build/model_type.o \
+	./build/randgen_type.o \
+	./build/photon_type.o \
+	./build/math_mod.o \
+	./build/grd_mod.o \
+	./build/fluxes_type.o
+
+./build/lvlpop_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/basic_type.o \
+	./build/randgen_type.o \
+	./build/fluxes_type.o \
+	./build/model_type.o \
+	./build/grid_type.o \
+	./build/gas_type.o \
+	./build/dust_type.o \
+	./build/grd_mod.o \
+	./build/math_mod.o \
+	./build/fileio.o \
+	./build/model_mod.o
+
+./build/temp_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/basic_type.o \
+	./build/randgen_type.o \
+	./build/dust_type.o \
+	./build/grid_type.o \
+	./build/model_type.o \
+	./build/gas_type.o \
+	./build/fluxes_type.o \
+	./build/photon_type.o \
+	./build/source_type.o \
+	./build/model_mod.o \
+	./build/mcrt_mod.o \
+	./build/math_mod.o \
+	./build/fileio.o
+
+./build/start_mod.o : \
+	./build/datatype.o \
+	./build/var_global.o \
+	./build/grid_type.o \
+	./build/dust_type.o \
+	./build/model_type.o \
+	./build/randgen_type.o \
+	./build/photon_type.o \
+	./build/basic_type.o \
+	./build/fluxes_type.o \
+	./build/source_type.o \
+	./build/math_mod.o \
+	./build/observe_mod.o
+
+./build/linkedlist_mod.o : \
+	./build/datatype.o
+
+./build/parser_mod.o : \
+	./build/datatype.o
+
+./build/mol3d.o : \
+	./build/var_global.o \
+	./build/datatype.o \
+	./build/basic_type.o \
+	./build/randgen_type.o \
+	./build/fluxes_type.o \
+	./build/model_type.o \
+	./build/grid_type.o \
+	./build/gas_type.o \
+	./build/dust_type.o \
+	./build/source_type.o \
+	./build/initiate.o \
+	./build/fileio.o \
+	./build/grd_mod.o \
+	./build/simulation_mod.o \
+	./build/math_mod.o
+

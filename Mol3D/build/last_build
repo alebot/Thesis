@@ -1,0 +1,6 @@
+joi 13 septembrie 2018, 10:50:42 +0200
+Compiler:   ifort
+Build Type: para
+CFLAGS:     -ip -ipo -O3 -axAVX -qopenmp
+DEPFLAGS:   -module ./build/ -I./build/ -L./../cfitsio -lcfitsio
+Source dir: ./src/
