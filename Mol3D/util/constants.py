@@ -4,7 +4,10 @@ input_file = root_dir + 'input/input.dat'
 results_dir = root_dir + 'results/'
 star_data = root_dir + 'input/stars.csv'
 sun_temperature = 5778
-
+visibility_dir = root_dir + 'visibilities/'
+figures_dir = root_dir + 'figures/'
+wavelengths_index = [36, 51, 92]
+wavelengths = [2.118170, 10.54976, 849.4667]
 
 ### Plots Formatting ###
 fontsize = 16.0
