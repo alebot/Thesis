@@ -61,7 +61,7 @@ def run_simulation(
 
     if run_visibility:
         # Calculate visibility
-        r_ou = u.extract(star_input, 'r_ou')
+        r_ou = 200
         map_rad = np.arctan((r_ou * m.pi)/(star_distance * 648000))
         calculate_visibility(simulation_name, i_wlen, wlen, star_name, map_rad)
 
@@ -104,6 +104,9 @@ def calculate_visibility(simulation_name, i_wlen, wlen, star_name, map_rad):
 
 def plot_visibility(filename, i_wlen, wlen, star_name):
     date_dir = u.make_date_dir(figures_dir);
+    kband = np.array([])
+    nband = np.array([])
+    x = np.array([])
 
     with open(filename, 'rt') as csvfile:
         reader = csv.reader(csvfile, delimiter=",", lineterminator='\n')
