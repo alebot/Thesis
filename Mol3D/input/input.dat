@@ -50,8 +50,8 @@ M_star = {0.7}                            stellar mass
 distance  = {140.0}                       object distance [pc]
 n_bin_map = {200}                         half number of pixel, total pixel = 2 * n_bin_map + 1
 no_photon = {100000}                      total number of photons (min ~10 * No of cells)
-th_map = {1.0}                            inclination to observer
-ph_map = {0.0}
+th_map = {44.0}                            inclination to observer
+ph_map = {15.0}
 zoom_map = {10}
 
 molratio = {99.0}                         gas-dust mass ratio

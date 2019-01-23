@@ -3,7 +3,7 @@ import re
 import fileinput
 import time
 import os
-from slugify import slugify
+
 from util.constants import *
 import numpy as np
 import csv

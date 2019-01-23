@@ -503,8 +503,8 @@ SUBROUTINE inimol(basics, fluxes, grid, model, dust, gas, sources_in)
     !   CALL AddSources(sources_in,1 ,(/0.0_r2,0.0_r2,0.0_r2/),                &
     !                   T_star=model%t_star, R_star=model%r_star)
     ! Mode 2: give T_star and Luminosity, e.g.,
-    !   CALL AddSources(sources_in,2,(/0.0_r2,0.0_r2,0.0_r2/),                 &
-    !                   T_star=model%T_star, L_star=REAL(L_sun*1.9,kind=r1))
+    CALL AddSources(sources_in,2,(/0.0_r2,0.0_r2,0.0_r2/),                 	   &
+                       T_star=8000.0, L_star=REAL(L_sun*1,kind=r1))
     ! -------------------------------------
 
     ! 1 source (used as the primary source, defined in the input file)
