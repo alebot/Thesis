@@ -1,11 +1,22 @@
-\select@language {ngerman}
-\contentsline {chapter}{\numberline {1}Einleitung}{1}
-\contentsline {paragraph}{\nonumberline Technische Hinweise:}{1}
-\contentsline {section}{\numberline {1.1}Physikalische Grundlagen}{2}
-\contentsline {section}{\numberline {1.2}Besonderheiten des verwendeten Materials}{2}
-\contentsline {subsection}{\numberline {1.2.1}Effektive-Massen-N\IeC {\"a}herung}{2}
-\contentsline {chapter}{\numberline {2}Theorie}{3}
-\contentsline {section}{\numberline {2.1}Hamilton-Operator des Systems}{4}
-\contentsline {section}{\numberline {2.2}St\IeC {\"o}rungstheoretische Betrachtung}{4}
-\contentsline {chapter}{\numberline {A}Zahlen}{5}
-\vspace *{1em}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Theory}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Star Formation}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Star forming regions}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Star formation phases}{7}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Radiation}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Absorption, emission and scattering}{9}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Blackbody radiation}{11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Radiative Transfer}{13}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Stellar properties}{16}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Effective Temperature $T_e [\rm {K}]$}{16}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Luminosity $L_\star [\rm {L_\odot }]$}{17}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Stellar Mass $M_\star [\rm {M_\odot }]$}{18}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Spectra}{19}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}HR Diagram}{21}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Variable Stars}{22}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}T Tauri stars}{25}{subsection.2.3.7}
+\contentsline {section}{\numberline {2.4}Circumstellar Disks}{25}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Interstellar Dust}{28}{subsection.2.4.1}
+\contentsline {chapter}{\numberline {3}Method}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}T Tauri Data}{31}{section.3.1}
+\contentsline {chapter}{\bibname }{37}{chapter*.24}

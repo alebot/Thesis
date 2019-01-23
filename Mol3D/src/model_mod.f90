@@ -69,7 +69,7 @@ CONTAINS
 
         CASE('FLARED_DISK')
             density = get_density_disk(caco, r_in=model%r_in, r_ou=model%r_ou, &
-                                   h_0=10.0_r2, alpha=2.625_r2, beta=1.125_r2)
+                                   h_0=10.0_r2, alpha=2.625_r2, beta=1.025_r2)
         CASE DEFAULT
             PRINT *, "ERROR, density model '"//TRIM(model_name)//              &
                      "' not defined (see model_mod.f90)"

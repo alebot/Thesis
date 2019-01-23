@@ -202,15 +202,15 @@ CONTAINS
         !----------------------------------------------------------------------!
         INTEGER                                          :: i_lam
         INTEGER                                          :: lambda
-        INTEGER, dimension(3)                            :: lambdas
+        INTEGER, dimension(13)                            :: lambdas
         !----------------------------------------------------------------------!
         ! reset maps
         fluxes%continuum_map = 0.0_r2
 
         !TbD: better adjustment of the wavelength table
-        lambdas = (/ 36, 51, 92/)
+        lambdas = (/ 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133 /)
 
-        DO i_lam = 1, 2!dust%n_lam
+        DO i_lam = 1, 13!dust%n_lam
             lambda = lambdas(i_lam)
             ! First we calculate the scattered light from the source
             WRITE (*,'(A,F7.3, A)') " | | | - wavelength : ",                  &

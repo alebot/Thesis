@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  24 SEP 2018 10:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.6)  22 JAN 2019 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,6 +332,7 @@ Special comment 'appendices' Special comment 'backmatter'
 \@oldparindent=\skip81
 LaTeX Info: Redefining \dedication on input line 703.
 )
+(./settings/packages.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks23
@@ -649,24 +650,6 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/02/24 3.9q The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
-Language: ngerman 2013/12/13 v2.7 German support for babel (new orthography)
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/02/24 3.9q Babel common definitions
-\babel@savecnt=\count111
-\U@D=\dimen136
-)
-\l@naustrian = a dialect from \language\l@ngerman 
-\l@nswissgerman = a dialect from \language\l@ngerman 
-Package babel Info: Making " an active character on input line 88.
-)))
 (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -718,6 +701,14 @@ LaTeX Info: Redefining \oldstylenums on input line 57.
 ) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/charter.sty
 Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
 )
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen136
+\WF@size=\dimen137
+\c@WF@wrappedlines=\count111
+\WF@box=\box31
+\WF@everypar=\toks25
+Package: wrapfig 2003/01/31  v 3.6
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
@@ -728,21 +719,39 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+
+
+Package natbib Warning: The `cite' package should not be used
+(natbib)                with natbib. Use option `sort' instead.
+
+\bibhang=\skip82
+\bibsep=\skip83
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citenum on input line 708.
+\c@NAT@ctr=\count112
+Local config file natbib.cfg used
+(./natbib.cfg)) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count112
-\calc@Bcount=\count113
-\calc@Adimen=\dimen137
-\calc@Bdimen=\dimen138
-\calc@Askip=\skip82
-\calc@Bskip=\skip83
+\calc@Acount=\count113
+\calc@Bcount=\count114
+\calc@Adimen=\dimen138
+\calc@Bdimen=\dimen139
+\calc@Askip=\skip84
+\calc@Bskip=\skip85
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count114
-\calc@Cskip=\skip84
+\calc@Ccount=\count115
+\calc@Cskip=\skip86
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
@@ -771,16 +780,16 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
-\AM@pagewidth=\dimen139
-\AM@pageheight=\dimen140
+\AM@pagewidth=\dimen140
+\AM@pageheight=\dimen141
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box31
-\AM@toc@title=\toks25
-\c@AM@survey=\count115
-\AM@templatesizebox=\box32
+\AM@pagebox=\box32
+\AM@toc@title=\toks26
+\c@AM@survey=\count116
+\AM@templatesizebox=\box33
 )
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -791,7 +800,7 @@ Package: SIunits 2007/12/02 v1.36 Support for the International System of units
  (MH)
 
 
-\@qskwidth=\skip85
+\@qskwidth=\skip87
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
@@ -870,81 +879,542 @@ File: ts1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
 
 (/usr/share/texlive/texmf-dist/tex/latex/SIunits/SIunits.cfg)
 Option `squaren' provided!
-) (/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty) (./thesis.aux)
+) (/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count117
+\float@exts=\toks27
+\float@box=\box34
+\@float@everytoks=\toks28
+\@floatcapt=\box35
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen142
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count120
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count121
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen143
+\Fld@menulength=\count122
+\Field@Width=\dimen144
+\Fld@charsize=\dimen145
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count123
+\c@Item=\count124
+\c@Hfootnote=\count125
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count126
+\c@bookmark@seq@number=\count127
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip88
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+\c@subfigure=\count128
+\c@subtable=\count129
+)
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks29
+\footnotemargin=\dimen146
+
+
+LaTeX Warning: Command \@makecol  has changed.
+               Check if current package is valid.
+
+\c@pp@next@reset=\count130
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen147
+\pgfutil@tempdimb=\dimen148
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box36
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen149
+\pgf@y=\dimen150
+\pgf@xa=\dimen151
+\pgf@ya=\dimen152
+\pgf@xb=\dimen153
+\pgf@yb=\dimen154
+\pgf@xc=\dimen155
+\pgf@yc=\dimen156
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count131
+\c@pgf@countb=\count132
+\c@pgf@countc=\count133
+\c@pgf@countd=\count134
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count135
+\pgfsyssoftpath@bigbuffer@items=\count136
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen157
+\pgfmath@count=\count137
+\pgfmath@box=\box37
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count138
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen158
+\pgf@picmaxx=\dimen159
+\pgf@picminy=\dimen160
+\pgf@picmaxy=\dimen161
+\pgf@pathminx=\dimen162
+\pgf@pathmaxx=\dimen163
+\pgf@pathminy=\dimen164
+\pgf@pathmaxy=\dimen165
+\pgf@xx=\dimen166
+\pgf@xy=\dimen167
+\pgf@yx=\dimen168
+\pgf@yy=\dimen169
+\pgf@zx=\dimen170
+\pgf@zy=\dimen171
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen172
+\pgf@path@lasty=\dimen173
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen174
+\pgf@shorten@start@additional=\dimen175
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
+\pgf@picture@serial@count=\count139
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen176
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen177
+\pgf@pt@y=\dimen178
+\pgf@pt@temp=\dimen179
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen180
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen181
+\pgf@sys@shading@range@num=\count140
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box41
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box42
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen182
+\pgf@nodesepend=\dimen183
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen184
+\pgffor@skip=\dimen185
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count141
+\pgfplotmarksize=\dimen186
+)
+\tikz@lastx=\dimen187
+\tikz@lasty=\dimen188
+\tikz@lastxsaved=\dimen189
+\tikz@lastysaved=\dimen190
+\tikzleveldistance=\dimen191
+\tikzsiblingdistance=\dimen192
+\tikz@figbox=\box43
+\tikz@figbox@bg=\box44
+\tikz@tempbox=\box45
+\tikz@tempbox@bg=\box46
+\tikztreelevel=\count142
+\tikznumberofchildren=\count143
+\tikznumberofcurrentchild=\count144
+\tikz@fig@count=\count145
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count146
+\pgfmatrixcurrentcolumn=\count147
+\pgf@matrix@numberofcolumns=\count148
+)
+\tikz@expandcount=\count149
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip89
+\enit@outerparindent=\dimen193
+\enit@toks=\toks42
+\enit@inbox=\box47
+\enitdp@description=\count150
+)
+(/usr/share/texlive/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup7
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count151
+\l_MT_multwidth_dim=\dimen194
+\origjot=\skip90
+\l_MT_shortvdotswithinadjustabove_dim=\dimen195
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen196
+\l_MT_above_intertext_sep=\dimen197
+\l_MT_below_intertext_sep=\dimen198
+\l_MT_above_shortintertext_sep=\dimen199
+\l_MT_below_shortintertext_sep=\dimen256
+)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen257
+\extrarowheight=\dimen258
+\NC@list=\toks43
+\extratabsurround=\skip91
+\backup@length=\skip92
+)
+\everycr=\toks44
+\minrowclearance=\skip93
+)
+\@indexfile=\write5
+\openout5 = `thesis.idx'.
+
+
+Writing index file thesis.idx
+) (./thesis.aux
+
+LaTeX Warning: Label `eq:sfl' multiply defined.
+
+
+LaTeX Warning: Label `fig:flare' multiply defined.
+
+
+LaTeX Warning: Label `fig:barnard68' multiply defined.
+
+
+LaTeX Warning: Label `fig:dust2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:dust2' multiply defined.
+
+
+LaTeX Warning: Label `fig:barnard68' multiply defined.
+
+
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 ...and\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
+)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 26.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Try loading font information for T1+bch on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1bch.fd
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
-\scratchdimen=\dimen141
-\scratchbox=\box33
-\nofMPsegments=\count117
-\nofMParguments=\count118
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count119
-\MPscratchDim=\dimen142
-\MPnumerator=\count120
-\makeMPintoPDFobject=\count121
-\everyMPtoPDFconversion=\toks27
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+\scratchcounter=\count152
+\scratchdimen=\dimen259
+\scratchbox=\box48
+\nofMPsegments=\count153
+\nofMParguments=\count154
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count155
+\MPscratchDim=\dimen260
+\MPnumerator=\count156
+\makeMPintoPDFobject=\count157
+\everyMPtoPDFconversion=\toks46
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+)
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -955,8 +1425,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box34
+\AtBeginShipoutBox=\box49
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
@@ -965,25 +1438,40 @@ Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
-
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-))
+)
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
+Package hyperref Info: Link coloring OFF on input line 9.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count158
+)
+LaTeX Info: Redefining \ref on input line 9.
+LaTeX Info: Redefining \pageref on input line 9.
+LaTeX Info: Redefining \nameref on input line 9.
+
+(./thesis.out) (./thesis.out)
+\@outlinefile=\write6
+\openout6 = `thesis.out'.
+
+ ABD: EveryShipout initializing macros
 Processing 'frontmatter' comment.
-\c@iterlist=\count122
+\c@iterlist=\count159
 \openout3 = `comment.cut'.
 
 
 Comment 'frontmatter' writing to comment.cut. Straight input of comment.cut.
 (./comment.cut (./preface.tex (./title-page.tex
-<img/unilogo-siegel-farbe.pdf, id=1, 703.62875pt x 144.54pt>
-File: img/unilogo-siegel-farbe.pdf Graphic file (type pdf)
+<img/unilogo-color.pdf, id=95, 703.62875pt x 144.54pt>
+File: img/unilogo-color.pdf Graphic file (type pdf)
 
-<use img/unilogo-siegel-farbe.pdf>
-Package pdftex.def Info: img/unilogo-siegel-farbe.pdf used on input line 4.
+<use img/unilogo-color.pdf>
+Package pdftex.def Info: img/unilogo-color.pdf used on input line 4.
 (pdftex.def)             Requested size: 336.05533pt x 69.03214pt.
 LaTeX Font Info:    Try loading font information for T1+hfoss on input line 6.
 
@@ -1029,143 +1517,2461 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+esint on input line 8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
 )) [1
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/unilogo-siegel-farbe
-.pdf>] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/unilogo-color.pdf>] 
+[2
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 4.
+ [3] [4
 
-[3] [4
+]
+(./thesis.toc
 
-] (./thesis.toc)
-\tf@toc=\write4
-\openout4 = `thesis.toc'.
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 11.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 12.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 13.
+
+)
+\tf@toc=\write7
+\openout7 = `thesis.toc'.
 
 )) Processing 'mainmatter' comment.
 \openout3 = `comment.cut'.
 
 
 Comment 'mainmatter' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./kapitel-1.tex [5] [6
+(./comment.cut (./theory.tex [5] [6
 
 ]
 chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+bch on input line 16.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface .
+
+<img/eso-big-bang.jpg, id=160, 891.88406pt x 306.13573pt>
+File: img/eso-big-bang.jpg Graphic file (type jpg)
+
+<use img/eso-big-bang.jpg>
+Package pdftex.def Info: img/eso-big-bang.jpg used on input line 11.
+(pdftex.def)             Requested size: 448.07378pt x 153.79619pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 12.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 12.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1]
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 25.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsbch.fd
 File: omsbch.fd 
 )
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
-
-Overfull \hbox (13.48824pt too wide) in paragraph at lines 18--19
-\T1/bch/m/n/12 der Kom-man-do-zei-le bzw. im Latex-Editor ``Ki-le'' mit der Pro
-jekt-Einstellung ``Schnell-
- []
-
-[1]
-Overfull \hbox (4.17151pt too wide) in paragraph at lines 20--21
-\T1/bch/m/n/12 Präambel an-ge-ge-be-ne Code-Tabelle (\T1/bch/m/it/12 use-packa-
-ge in-pu-tenc\T1/bch/m/n/12 -Befehl) mit der im Latex-
- []
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 
 
-LaTeX Warning: Citation `Jackson1999' on page 2 undefined on input line 23.
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 27.
 
 
-LaTeX Warning: Citation `Einstein1925' on page 2 undefined on input line 23.
+Underfull \vbox (badness 6252) has occurred while \output is active []
 
+ [2 <./img/eso-big-bang.jpg>] [3] [4
 
-LaTeX Warning: Citation `HaugKoch2004' on page 2 undefined on input line 24.
-
-
-LaTeX Warning: Citation `Meinke2005' on page 2 undefined on input line 24.
-
-
-LaTeX Warning: Citation `Holm1998' on page 2 undefined on input line 24.
-
-
-LaTeX Warning: Citation `Nolting2007' on page 2 undefined on input line 27.
-
-) (./kapitel-2.tex [2]
+]
 chapter 2.
-<img/kreis.png, id=45, 501.875pt x 501.875pt>
-File: img/kreis.png Graphic file (type png)
- <use img/kreis.png>
-Package pdftex.def Info: img/kreis.png used on input line 16.
-(pdftex.def)             Requested size: 268.847pt x 268.85657pt.
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 38.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 38.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 40.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 40.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 17.
+(Font)              <10> on input line 40.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 40.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 40.
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 40.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 40.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 40.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 40.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 40.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 40.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 40.
+
+[5] <img/nebula-messier-78-eso1105a.jpg, id=208, 1284.8pt x 1244.65pt>
+File: img/nebula-messier-78-eso1105a.jpg Graphic file (type jpg)
+
+<use img/nebula-messier-78-eso1105a.jpg>
+Package pdftex.def Info: img/nebula-messier-78-eso1105a.jpg used on input line 
+44.
+(pdftex.def)             Requested size: 205.5918pt x 199.16928pt.
+
+Overfull \hbox (3.95998pt too wide) in paragraph at lines 44--45
+[][] 
+ []
+
+<img/nebula-pipe-eso1233a.jpg, id=209, 1284.8pt x 1201.48875pt>
+File: img/nebula-pipe-eso1233a.jpg Graphic file (type jpg)
+
+<use img/nebula-pipe-eso1233a.jpg>
+Package pdftex.def Info: img/nebula-pipe-eso1233a.jpg used on input line 49.
+(pdftex.def)             Requested size: 212.96307pt x 199.16928pt.
+
+Overfull \hbox (11.33125pt too wide) in paragraph at lines 49--50
+[][] 
+ []
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 70.
+
+[6 <./img/nebula-messier-78-eso1105a.jpg> <./img/nebula-pipe-eso1233a.jpg>]
+<img/sf1-1.jpg, id=226, 644.4075pt x 644.4075pt>
+File: img/sf1-1.jpg Graphic file (type jpg)
+ <use img/sf1-1.jpg>
+Package pdftex.def Info: img/sf1-1.jpg used on input line 74.
+(pdftex.def)             Requested size: 134.4235pt x 134.42494pt.
+
+<img/sf2-1.jpg, id=227, 644.4075pt x 644.4075pt>
+File: img/sf2-1.jpg Graphic file (type jpg)
+ <use img/sf2-1.jpg>
+Package pdftex.def Info: img/sf2-1.jpg used on input line 79.
+(pdftex.def)             Requested size: 134.4235pt x 134.42494pt.
+
+<img/sf3-1.jpg, id=228, 644.4075pt x 644.4075pt>
+File: img/sf3-1.jpg Graphic file (type jpg)
+ <use img/sf3-1.jpg>
+Package pdftex.def Info: img/sf3-1.jpg used on input line 84.
+(pdftex.def)             Requested size: 134.4235pt x 134.42494pt.
+
+<img/sf4-1.jpg, id=229, 644.4075pt x 644.4075pt>
+File: img/sf4-1.jpg Graphic file (type jpg)
+ <use img/sf4-1.jpg>
+Package pdftex.def Info: img/sf4-1.jpg used on input line 90.
+(pdftex.def)             Requested size: 134.4235pt x 134.42494pt.
+
+<img/sf5-1.jpg, id=230, 641.39626pt x 644.4075pt>
+File: img/sf5-1.jpg Graphic file (type jpg)
+ <use img/sf5-1.jpg>
+Package pdftex.def Info: img/sf5-1.jpg used on input line 95.
+(pdftex.def)             Requested size: 134.4235pt x 135.05424pt.
+
+<img/sf6-1.jpg, id=231, 641.39626pt x 644.4075pt>
+File: img/sf6-1.jpg Graphic file (type jpg)
+ <use img/sf6-1.jpg>
+Package pdftex.def Info: img/sf6-1.jpg used on input line 100.
+(pdftex.def)             Requested size: 134.4235pt x 135.05424pt.
+ [7 <./img/sf1-1.jpg> <./img/sf2-1.jpg> <./img/sf3-1.jpg> <./img/sf4-1.jpg> <./
+img/sf5-1.jpg> <./img/sf6-1.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 121.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 123.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 123.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 123.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 123.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 123.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 123.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 123.
+
+<img/absorption.png, id=253, 196.735pt x 192.72pt>
+File: img/absorption.png Graphic file (type png)
+ <use img/absorption.png>
+Package pdftex.def Info: img/absorption.png used on input line 127.
+(pdftex.def)             Requested size: 116.1807pt x 113.81102pt.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 128.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 128.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[][]|\T1/bch/b/n/10.95 Ab-sorp-tion \T1/bch/m/n/10.95 oc-curs
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 128--128
+\T1/bch/m/n/10.95 is ex-cited to a higher
+ []
+
+<img/spontaneous-emission.png, id=255, 193.72375pt x 187.70125pt>
+File: img/spontaneous-emission.png Graphic file (type png)
+
+<use img/spontaneous-emission.png>
+Package pdftex.def Info: img/spontaneous-emission.png used on input line 132.
+(pdftex.def)             Requested size: 117.46483pt x 113.81102pt.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 133.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 133.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 133.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 133.
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 133--133
+\T1/bch/m/n/10.95 to ab-sorp-tion, in the
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 133--133
+\T1/bch/m/n/10.95 sense that the sys-tem
+ []
+
+<img/stimulated-emission.png, id=256, 218.8175pt x 188.705pt>
+File: img/stimulated-emission.png Graphic file (type png)
+
+<use img/stimulated-emission.png>
+Package pdftex.def Info: img/stimulated-emission.png used on input line 137.
+(pdftex.def)             Requested size: 131.97263pt x 113.81102pt.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 138.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 138.
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 138--138
+\T1/bch/m/n/10.95 the pro-cess in which
+ []
+
+<img/hydrogen-spectra.png, id=257, 415.151pt x 115.632pt>
+File: img/hydrogen-spectra.png Graphic file (type png)
+
+<use img/hydrogen-spectra.png>
+Package pdftex.def Info: img/hydrogen-spectra.png used on input line 142.
+(pdftex.def)             Requested size: 448.07378pt x 124.80835pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- <./img/kreis.png>] <img/quadrat.pdf, id=51, 200.75pt x 184.69pt>
-File: img/quadrat.pdf Graphic file (type pdf)
+ [10 <./img/absorption.png> <./img/spontaneous-emission.png> <./img/stimulated-
+emission.png> <./img/hydrogen-spectra.png>]
 
-<use img/quadrat.pdf>
-Package pdftex.def Info: img/quadrat.pdf used on input line 26.
-(pdftex.def)             Requested size: 201.63182pt x 185.51242pt.
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 154.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 154.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 154.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 154.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 165.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 165.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 165.
+
+<img/planck-distribution.png, id=282, 792.9625pt x 434.62375pt>
+File: img/planck-distribution.png Graphic file (type png)
+
+<use img/planck-distribution.png>
+Package pdftex.def Info: img/planck-distribution.png used on input line 174.
+(pdftex.def)             Requested size: 358.46039pt x 196.47417pt.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 175.
+
+
+Package natbib Warning: Citation `Openstax:Physics' on page 11 undefined on inp
+ut line 175.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 175.
+
+
+Package natbib Warning: Citation `Openstax:Physics' on page 11 undefined on inp
+ut line 175.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./img/planck-distribution.png>]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 208.
+
+<img/rad-trans.png, id=305, 670.505pt x 142.5325pt>
+File: img/rad-trans.png Graphic file (type png)
+ <use img/rad-trans.png>
+Package pdftex.def Info: img/rad-trans.png used on input line 218.
+(pdftex.def)             Requested size: 448.07378pt x 95.24832pt.
+
+[13 <./img/rad-trans.png>]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 233.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 233.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 239.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 239.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 245.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 245.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 245.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 245.
+
+<img/barnard-68-eso0102a2.jpg, id=320, 3086.53125pt x 3020.28375pt>
+File: img/barnard-68-eso0102a2.jpg Graphic file (type jpg)
+
+<use img/barnard-68-eso0102a2.jpg>
+Package pdftex.def Info: img/barnard-68-eso0102a2.jpg used on input line 270.
+(pdftex.def)             Requested size: 218.05731pt x 213.39566pt.
+
+Overfull \hbox (7.4621pt too wide) in paragraph at lines 270--271
+[][] 
+ []
+
+<img/barnard-68-ir-eso0102b.jpg, id=321, 554.3109pt x 550.6974pt>
+File: img/barnard-68-ir-eso0102b.jpg Graphic file (type jpg)
+
+<use img/barnard-68-ir-eso0102b.jpg>
+Package pdftex.def Info: img/barnard-68-ir-eso0102b.jpg used on input line 275.
+
+(pdftex.def)             Requested size: 214.79324pt x 213.39566pt.
+
+Overfull \hbox (4.19803pt too wide) in paragraph at lines 275--276
+[][] 
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 276--276
+[][]|\T1/bch/m/n/10.95 Barnard 68, false-colour com-pos-ite
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+[15 <./img/barnard-68-eso0102a2.jpg> <./img/barnard-68-ir-eso0102b.jpg>]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 311.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 311.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 311.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 311.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 313.
+
+[16]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\star' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\odot' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 320.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 322.
+
+<img/inverse-square-law.png, id=367, 1284.8pt x 855.195pt>
+File: img/inverse-square-law.png Graphic file (type png)
+
+<use img/inverse-square-law.png>
+Package pdftex.def Info: img/inverse-square-law.png used on input line 336.
+(pdftex.def)             Requested size: 268.847pt x 178.94379pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 342.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 342.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 342.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\star' on input line 342.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 342.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\odot' on input line 342.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 342.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 343.
+
+[17] <img/hydrostatic-equilibrium.png, id=379, 373.395pt x 372.39125pt>
+File: img/hydrostatic-equilibrium.png Graphic file (type png)
+
+<use img/hydrostatic-equilibrium.png>
+Package pdftex.def Info: img/hydrostatic-equilibrium.png used on input line 347
+.
+(pdftex.def)             Requested size: 165.7851pt x 165.33571pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 352.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 352.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 352.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 352.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./img/inverse-square-law.png>] [19 <./img/hydrostatic-equilibrium.png>]
+Overfull \hbox (2.68182pt too wide) in paragraph at lines 379--398
+ [] 
+ []
+
+<img/hz-diagram-eso0728c.jpg, id=399, 1284.8pt x 1279.78125pt>
+File: img/hz-diagram-eso0728c.jpg Graphic file (type jpg)
+
+<use img/hz-diagram-eso0728c.jpg>
+Package pdftex.def Info: img/hz-diagram-eso0728c.jpg used on input line 420.
+(pdftex.def)             Requested size: 448.07378pt x 446.32887pt.
+
+Underfull \vbox (badness 1418) has occurred while \output is active []
+
+ [20]
+[21 <./img/hz-diagram-eso0728c.jpg>]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 429.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 429.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 429.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 429.
+
+<img/lightcurve-v2.png, id=415, 635.37375pt x 742.775pt>
+File: img/lightcurve-v2.png Graphic file (type png)
+
+<use img/lightcurve-v2.png>
+Package pdftex.def Info: img/lightcurve-v2.png used on input line 439.
+(pdftex.def)             Requested size: 179.22676pt x 209.51697pt.
+ [22]
+<img/flares-potw1541a.jpg, id=427, 1553.805pt x 966.61125pt>
+File: img/flares-potw1541a.jpg Graphic file (type jpg)
+
+<use img/flares-potw1541a.jpg>
+Package pdftex.def Info: img/flares-potw1541a.jpg used on input line 450.
+(pdftex.def)             Requested size: 448.07378pt x 278.74666pt.
+ [23 <./img/lightcurve-v2.png>] [24 <./img/flares-potw1541a.jpg>]
+<img/circumstellar-disk-eso1029a.jpg, id=444, 617.30624pt x 412.54124pt>
+File: img/circumstellar-disk-eso1029a.jpg Graphic file (type jpg)
+
+<use img/circumstellar-disk-eso1029a.jpg>
+Package pdftex.def Info: img/circumstellar-disk-eso1029a.jpg used on input line
+ 469.
+(pdftex.def)             Requested size: 448.07378pt x 299.45299pt.
+
+<img/circumstellar-disk-eso1423a.jpg, id=454, 4818.0pt x 2710.125pt>
+File: img/circumstellar-disk-eso1423a.jpg Graphic file (type jpg)
+
+<use img/circumstellar-disk-eso1423a.jpg>
+Package pdftex.def Info: img/circumstellar-disk-eso1423a.jpg used on input line
+ 481.
+(pdftex.def)             Requested size: 403.26366pt x 226.82188pt.
+
+<img/flare.jpg, id=455, 769.87625pt x 341.275pt>
+File: img/flare.jpg Graphic file (type jpg)
+ <use img/flare.jpg>
+Package pdftex.def Info: img/flare.jpg used on input line 486.
+(pdftex.def)             Requested size: 403.26366pt x 178.76587pt.
+ [25]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26 <./img/circumstellar-disk-eso1029a.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27 <./img/circumstellar-disk-eso1423a.jpg> <./img/flare.jpg>]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 503.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 507.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 507.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 507.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 507.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 509.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 509.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 513.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 513.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 513.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 513.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 513.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 513.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 517.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 517.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 517.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 517.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 517.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+<img/dust1.png, id=482, 331.2375pt x 349.305pt>
+File: img/dust1.png Graphic file (type png)
+ <use img/dust1.png>
+Package pdftex.def Info: img/dust1.png used on input line 521.
+(pdftex.def)             Requested size: 134.90353pt x 142.26378pt.
+
+<img/dust2.png, id=483, 517.935pt x 417.56pt>
+File: img/dust2.png Graphic file (type png)
+ <use img/dust2.png>
+Package pdftex.def Info: img/dust2.png used on input line 526.
+(pdftex.def)             Requested size: 176.4591pt x 142.26378pt.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 534.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 534.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 534.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 534.
+
+<img/planck.png, id=485, 422.0568pt x 326.6604pt>
+File: img/planck.png Graphic file (type png)
+ <use img/planck.png>
+Package pdftex.def Info: img/planck.png used on input line 538.
+(pdftex.def)             Requested size: 183.80574pt x 142.26378pt.
+File: img/dust2.png Graphic file (type png)
+
+<use img/dust2.png>
+Package pdftex.def Info: img/dust2.png used on input line 543.
+(pdftex.def)             Requested size: 176.4591pt x 142.26378pt.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 551.
+
+) (./method.tex [29 <./img/dust1.png> <./img/dust2.png>] [30 <./img/planck.png>
+]
+chapter 3.
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 9.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 9.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 9.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 9.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 9.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 31.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 31.
+
+
+Underfull \vbox (badness 5652) has occurred while \output is active []
+
+ [31
+
+]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 39.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 39.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 49.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 49.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 51.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 53.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 55.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 64.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 64.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 78.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 78.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 80.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 80.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 82.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 82.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 95.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 95.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 95.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 95.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 95.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 95.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 95.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 95.
+
+
+Underfull \vbox (badness 7649) has occurred while \output is active []
+
+ [32]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 98.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 98.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 98.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 103.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 103.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 103.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--106
+
+ []
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 117.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 119.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 119.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 121.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 123.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 123.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 125.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 136.
+
+
+Overfull \hbox (22.21526pt too wide) in paragraph at lines 134--151
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 163.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 163.
+
 )) Processing 'appendices' comment.
 \openout3 = `comment.cut'.
 
 
 Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./appendix.tex [4 <./img/quadrat.pdf>]
-chapter A.
-
-LaTeX Warning: Citation `HaugKoch2004' on page 5 undefined on input line 21.
-
-
-LaTeX Warning: Citation `HaugKoch2004' on page 5 undefined on input line 21.
-
-)) Processing 'backmatter' comment. [5
-
-] [6
-
-
-]
+(./comment.cut) Processing 'backmatter' comment. [34]
 \openout3 = `comment.cut'.
 
 
 Comment 'backmatter' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./postface.tex
-No file thesis.bbl.
-[7] [8
+(./comment.cut (./thesis.bbl [35
 
-])) [9] (./thesis.aux)
 
-LaTeX Warning: There were undefined references.
+] [36
 
+]
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.61 \newblock {In: }\emph{\mnras}
+                                   467 (2017), Mai, S. 1614--1626.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37])
+(./postface.tex [38]))
+
+Package natbib Warning: There were undefined citations.
+
+[39
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
+ (./thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 54F721A55D8AE63E0EC64D5E58D226B7;1416.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 9282 strings out of 493029
- 138589 string characters out of 6136234
- 269808 words of memory out of 5000000
- 12541 multiletter control sequences out of 15000+600000
- 67594 words of font info for 77 fonts, out of 8000000 for 9000
+ 23720 strings out of 493029
+ 424710 string characters out of 6136234
+ 555056 words of memory out of 5000000
+ 26516 multiletter control sequences out of 15000+600000
+ 129529 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,13n,68p,469b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-d
-ist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-bitstrea/charter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb>
-Output written on thesis.pdf (15 pages, 561140 bytes).
+ 67i,18n,68p,2797b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sha
+re/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
+athit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/shar
+e/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/esint-type1/esint10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbsy10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (45 pages, 15212149 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 677 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 334 words of extra memory for PDF output out of 10000 (max. 10000000)
 

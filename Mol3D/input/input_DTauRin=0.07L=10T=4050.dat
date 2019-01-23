@@ -1,0 +1,77 @@
+#####################################################################################
+#                            Mol3D input file                                       #
+#                                                                                   #
+# All parameters that can be changed without recompiling Mol3D are listed here.     #
+# Please be aware that some parameters are not intended to be changeable.           #
+# They are not listed here, but accessable via the src/initiate.f90 source file.    #
+#                                                                                   #
+# If you have questions, please feel free to ask me.                                #
+#                                                                                   #
+# author: Florian Ober                                                              #
+# email : fober@astrophysik.uni-kiel.de                                             #
+#####################################################################################
+
+                                          (+) working, (o) testing, (-) not working
+
+proname = {DTauRin=0.07L=10T=4050_mono}                       project name
+r_path = {results/}                       define results path
+
+num_core    = {008}                       number of cores to use in parallel mode
+                                          If OMP_NUM_THREADS is set and valid,
+                                          this number will be ignored
+old_model   = {T}                         use results from earlier calculations
+old_proname = {DTauRin=0.07L=10T=4050_temp_n}                    the project name of the older calculation
+
+do_MC_temperature = {F}                   calculate dust temperature (+)
+                                          If F(alse) an analytical temperature distribution is
+                                          used, see src/temp_mod.f90 -> "Get_temp" function
+                                          In addition Sed's and maps are generated on the fly
+                                          (see peel off)
+
+do_continuum_mono = {T}                   make monochromatic continuum !scattering! maps and seds
+                                          using a Monte Carlo method (+)
+
+do_peel_off = {T}                         peel of photons for high signal to noise sed's and maps
+                                          while temperature calculation while temperature
+                                          calculation or for the monochromatic transfer (+)
+
+do_continuum_raytrace = {T}               make continuum maps and sed's using a raytracer (+)
+
+do_velo_ch_map = {F}                      make velocity-channel maps and spectra (+)
+
+r_in   = {0.07}                            inner radius
+r_ou   = {200}                            outer radius
+mass_dust = {3e-3}                        dust mass of disk
+
+T_star = {4050}                         effective Temperature
+R_star = {6.436429676669828}                              radius of star in stellar radii
+M_star = {0.7}                            stellar mass
+
+distance  = {140}                       object distance [pc]
+n_bin_map = {200}                         half number of pixel, total pixel = 2 * n_bin_map + 1
+no_photon = {10000}                      total number of photons (min ~10 * No of cells)
+th_map = {1.0}                            inclination to observer
+ph_map = {0.0}
+zoom_map = {10}
+
+molratio = {99.0}                         gas-dust mass ratio
+abundance = {1e-4}                        selected molecule number abundance relative to H2
+line_mode = {3}                           set the method to calculate the level populations
+                                          1 := LTE  2 := FEP  3 := LVG
+line = {3}                                line transition number (see gas_input file)
+i_vel_chan = {36}                         (half) Number of velocity channels
+vel_max = {1500.0}                        max velocity in spectrum (in m/s
+v_turb = {100}                            turbulent velocity (in m/s)'
+
+gas_cat_name = {co.dat}                   gas catalog name (in input/mol) (Leiden database style)
+dust_cat_name = {mrn--250}                dust catalog name (in input/dust) (in mc3d style)
+grid_name = {spherical}                   possible values: spherical (+), cylindrical (+), cartesian (o)
+grid_type = {1}                           default = 1, 2 and higher values for user defined grids
+                                                    9 is reserved for a grid defined in a text file (+)
+velo_type = {1}                           1 : use analytical definition in model_mod.f90 (default)
+                                          2 : lin. interpolation is used, handy for full 3D data
+
+n_a = {100}                               x - cartesian(o), rho - cylindrical(+), r     - spherical(+)
+n_b = {101}                               y - cartesian(o), phi - cylindrical(+), theta - spherical(+)
+n_c = {1}                                 z - cartesian(o), z   - cylindrical(+), phi   - spherical(+)
+sf = {1.035}

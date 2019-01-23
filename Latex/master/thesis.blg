@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: abbrvdin.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: literature/library.bib
+Warning--I didn't find a database entry for "Openstax:Physics"
+Warning--to sort, need author or key in Strom1989
+Warning--empty author in Strom1989
+You've used 11 entries,
+            4332 wiz_defined-function locations,
+            911 strings with 7654 characters,
+and the built_in function-call counts, 6488 in all, are:
+= -- 655
+> -- 137
+< -- 156
++ -- 176
+- -- 54
+* -- 490
+:= -- 1077
+add.period$ -- 16
+call.type$ -- 11
+change.case$ -- 43
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 176
+empty$ -- 543
+format.name$ -- 90
+if$ -- 1339
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 53
+newline$ -- 73
+num.names$ -- 21
+pop$ -- 73
+preamble$ -- 1
+purify$ -- 43
+quote$ -- 0
+skip$ -- 264
+stack$ -- 0
+substring$ -- 619
+swap$ -- 51
+text.length$ -- 35
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 2
+while$ -- 59
+width$ -- 13
+write$ -- 154
+(There were 3 warnings)

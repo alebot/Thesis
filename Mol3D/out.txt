@@ -1,0 +1,2066 @@
+ ======================================================
+ Mol3D                                         Welcome!
+
+ git commit: 
+ 5a224434274c1821a4953f3d6df555137cda9646
+ ======================================================
+ Code initialization
+ Simulation name: DTauRin=0.07L=1T=4050_temp_n
+ Parallel mode, using:   8 cores
+ tabulating: - right side of energy equation
+             - planck function               [this may take a while]
+ Number of dust components included  :   1
+ Number of radiation sources included:   1
+ Total Luminosity :  1.00 L_sun
+ grid type: spherical, type: 1
+ Number of ESCs:        10100
+ Code initialization done !
+ preparing grid [this may take a while]
+                                                              
+ dust mass           :  3.0000E-03 M_sun
+ 
+ H2 mass             :  2.9659E-01 M_sun
+          orthogonal :  2.2244E-01 M_sun
+            parallel :  7.4147E-02 M_sun
+ 
+ molecule mass       :  4.1195E-04 M_sun
+ ---------------------------------------
+ total disk mass     :  3.0000E-01 M_sun
+ 
+ smallest step width :  4.4409E-13 AU                              
+ 
+ starting simulation
+ |
+ | temperature calculation
+ | | calculate temperature with Monte Carlo method
+ | | Peel-off technique enabled
+ | | | starting photon transfer ... [this may take a while]
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | photon transfer finished                
+ | | save contiunuum maps and sed's (bined mode)
+ | | final temperature calculation
+ | done!                 
+ |
+ | saving the model
+ | |   1 % done[A
+ | |   2 % done[A
+ | |   3 % done[A
+ | |   4 % done[A
+ | |   5 % done[A
+ | |   6 % done[A
+ | |   7 % done[A
+ | |   8 % done[A
+ | |   9 % done[A
+ | |  10 % done[A
+ | |  11 % done[A
+ | |  12 % done[A
+ | |  13 % done[A
+ | |  14 % done[A
+ | |  15 % done[A
+ | |  16 % done[A
+ | |  17 % done[A
+ | |  18 % done[A
+ | |  19 % done[A
+ | |  20 % done[A
+ | |  21 % done[A
+ | |  22 % done[A
+ | |  23 % done[A
+ | |  24 % done[A
+ | |  25 % done[A
+ | |  26 % done[A
+ | |  27 % done[A
+ | |  28 % done[A
+ | |  29 % done[A
+ | |  30 % done[A
+ | |  31 % done[A
+ | |  32 % done[A
+ | |  33 % done[A
+ | |  34 % done[A
+ | |  35 % done[A
+ | |  36 % done[A
+ | |  37 % done[A
+ | |  38 % done[A
+ | |  39 % done[A
+ | |  40 % done[A
+ | |  41 % done[A
+ | |  42 % done[A
+ | |  43 % done[A
+ | |  44 % done[A
+ | |  45 % done[A
+ | |  46 % done[A
+ | |  47 % done[A
+ | |  48 % done[A
+ | |  49 % done[A
+ | |  50 % done[A
+ | |  51 % done[A
+ | |  52 % done[A
+ | |  52 % done[A
+ | |  54 % done[A
+ | |  55 % done[A
+ | |  56 % done[A
+ | |  57 % done[A
+ | |  58 % done[A
+ | |  58 % done[A
+ | |  60 % done[A
+ | |  61 % done[A
+ | |  62 % done[A
+ | |  63 % done[A
+ | |  64 % done[A
+ | |  65 % done[A
+ | |  66 % done[A
+ | |  67 % done[A
+ | |  68 % done[A
+ | |  69 % done[A
+ | |  70 % done[A
+ | |  71 % done[A
+ | |  72 % done[A
+ | |  73 % done[A
+ | |  74 % done[A
+ | |  75 % done[A
+ | |  76 % done[A
+ | |  77 % done[A
+ | |  78 % done[A
+ | |  79 % done[A
+ | |  80 % done[A
+ | |  81 % done[A
+ | |  82 % done[A
+ | |  83 % done[A
+ | |  84 % done[A
+ | |  85 % done[A
+ | |  86 % done[A
+ | |  87 % done[A
+ | |  88 % done[A
+ | |  89 % done[A
+ | |  90 % done[A
+ | |  91 % done[A
+ | |  92 % done[A
+ | |  93 % done[A
+ | |  94 % done[A
+ | |  95 % done[A
+ | |  96 % done[A
+ | |  97 % done[A
+ | |  98 % done[A
+ | |  99 % done[A
+ | | 100 % done[A
+ | done!                 
+ |
+ | generating visualisation output
+ | done!                 
+ |
+ |
+ simulation DTauRin=0.07L=1T=4050_temp_n took 22h 28m 54.86s    (  80934.86sec)
+ omp_get_wtime:  1.0157E+04
+ 
+ Bye bye
+ 
+ ======================================================
+ Mol3D                                         Welcome!
+
+ git commit: 
+ 5a224434274c1821a4953f3d6df555137cda9646
+ ======================================================
+ Code initialization
+ Simulation name: DTauRin=0.07L=1T=4050_mono
+ Parallel mode, using:   8 cores
+ tabulating: - right side of energy equation
+             - planck function               [this may take a while]
+ Number of dust components included  :   1
+ Number of radiation sources included:   1
+ Total Luminosity :  1.00 L_sun
+ grid type: spherical, type: 9
+ Number of ESCs:        10100
+ Code initialization done !
+ preparing grid [this may take a while]
+ | loading model parameter from: DTauRin=0.07L=1T=4050_temp_n
+ | |   1 % done[A
+ | |   2 % done[A
+ | |   3 % done[A
+ | |   4 % done[A
+ | |   5 % done[A
+ | |   6 % done[A
+ | |   7 % done[A
+ | |   8 % done[A
+ | |   9 % done[A
+ | |  10 % done[A
+ | |  11 % done[A
+ | |  12 % done[A
+ | |  13 % done[A
+ | |  14 % done[A
+ | |  15 % done[A
+ | |  16 % done[A
+ | |  17 % done[A
+ | |  18 % done[A
+ | |  19 % done[A
+ | |  20 % done[A
+ | |  21 % done[A
+ | |  22 % done[A
+ | |  23 % done[A
+ | |  24 % done[A
+ | |  25 % done[A
+ | |  26 % done[A
+ | |  27 % done[A
+ | |  28 % done[A
+ | |  29 % done[A
+ | |  30 % done[A
+ | |  31 % done[A
+ | |  32 % done[A
+ | |  33 % done[A
+ | |  34 % done[A
+ | |  35 % done[A
+ | |  36 % done[A
+ | |  37 % done[A
+ | |  38 % done[A
+ | |  39 % done[A
+ | |  40 % done[A
+ | |  41 % done[A
+ | |  42 % done[A
+ | |  43 % done[A
+ | |  44 % done[A
+ | |  45 % done[A
+ | |  46 % done[A
+ | |  47 % done[A
+ | |  48 % done[A
+ | |  49 % done[A
+ | |  50 % done[A
+ | |  51 % done[A
+ | |  52 % done[A
+ | |  52 % done[A
+ | |  54 % done[A
+ | |  55 % done[A
+ | |  56 % done[A
+ | |  57 % done[A
+ | |  58 % done[A
+ | |  58 % done[A
+ | |  60 % done[A
+ | |  61 % done[A
+ | |  62 % done[A
+ | |  63 % done[A
+ | |  64 % done[A
+ | |  65 % done[A
+ | |  66 % done[A
+ | |  67 % done[A
+ | |  68 % done[A
+ | |  69 % done[A
+ | |  70 % done[A
+ | |  71 % done[A
+ | |  72 % done[A
+ | |  73 % done[A
+ | |  74 % done[A
+ | |  75 % done[A
+ | |  76 % done[A
+ | |  77 % done[A
+ | |  78 % done[A
+ | |  79 % done[A
+ | |  80 % done[A
+ | |  81 % done[A
+ | |  82 % done[A
+ | |  83 % done[A
+ | |  84 % done[A
+ | |  85 % done[A
+ | |  86 % done[A
+ | |  87 % done[A
+ | |  88 % done[A
+ | |  89 % done[A
+ | |  90 % done[A
+ | |  91 % done[A
+ | |  92 % done[A
+ | |  93 % done[A
+ | |  94 % done[A
+ | |  95 % done[A
+ | |  96 % done[A
+ | |  97 % done[A
+ | |  98 % done[A
+ | |  99 % done[A
+ | | 100 % done[A
+ | done!                        
+                                                              
+ dust mass           :  3.0000E-03 M_sun
+ 
+ H2 mass             :  2.9659E-01 M_sun
+          orthogonal :  2.2244E-01 M_sun
+            parallel :  7.4147E-02 M_sun
+ 
+ molecule mass       :  4.1195E-04 M_sun
+ ---------------------------------------
+ total disk mass     :  3.0000E-01 M_sun
+ 
+ smallest step width :  4.4409E-13 AU                              
+ 
+ starting simulation
+ |
+ | temperature calculation
+ | done!                 
+ |
+ | saving the model
+ | |   1 % done[A
+ | |   2 % done[A
+ | |   3 % done[A
+ | |   4 % done[A
+ | |   5 % done[A
+ | |   6 % done[A
+ | |   7 % done[A
+ | |   8 % done[A
+ | |   9 % done[A
+ | |  10 % done[A
+ | |  11 % done[A
+ | |  12 % done[A
+ | |  13 % done[A
+ | |  14 % done[A
+ | |  15 % done[A
+ | |  16 % done[A
+ | |  17 % done[A
+ | |  18 % done[A
+ | |  19 % done[A
+ | |  20 % done[A
+ | |  21 % done[A
+ | |  22 % done[A
+ | |  23 % done[A
+ | |  24 % done[A
+ | |  25 % done[A
+ | |  26 % done[A
+ | |  27 % done[A
+ | |  28 % done[A
+ | |  29 % done[A
+ | |  30 % done[A
+ | |  31 % done[A
+ | |  32 % done[A
+ | |  33 % done[A
+ | |  34 % done[A
+ | |  35 % done[A
+ | |  36 % done[A
+ | |  37 % done[A
+ | |  38 % done[A
+ | |  39 % done[A
+ | |  40 % done[A
+ | |  41 % done[A
+ | |  42 % done[A
+ | |  43 % done[A
+ | |  44 % done[A
+ | |  45 % done[A
+ | |  46 % done[A
+ | |  47 % done[A
+ | |  48 % done[A
+ | |  49 % done[A
+ | |  50 % done[A
+ | |  51 % done[A
+ | |  52 % done[A
+ | |  52 % done[A
+ | |  54 % done[A
+ | |  55 % done[A
+ | |  56 % done[A
+ | |  57 % done[A
+ | |  58 % done[A
+ | |  58 % done[A
+ | |  60 % done[A
+ | |  61 % done[A
+ | |  62 % done[A
+ | |  63 % done[A
+ | |  64 % done[A
+ | |  65 % done[A
+ | |  66 % done[A
+ | |  67 % done[A
+ | |  68 % done[A
+ | |  69 % done[A
+ | |  70 % done[A
+ | |  71 % done[A
+ | |  72 % done[A
+ | |  73 % done[A
+ | |  74 % done[A
+ | |  75 % done[A
+ | |  76 % done[A
+ | |  77 % done[A
+ | |  78 % done[A
+ | |  79 % done[A
+ | |  80 % done[A
+ | |  81 % done[A
+ | |  82 % done[A
+ | |  83 % done[A
+ | |  84 % done[A
+ | |  85 % done[A
+ | |  86 % done[A
+ | |  87 % done[A
+ | |  88 % done[A
+ | |  89 % done[A
+ | |  90 % done[A
+ | |  91 % done[A
+ | |  92 % done[A
+ | |  93 % done[A
+ | |  94 % done[A
+ | |  95 % done[A
+ | |  96 % done[A
+ | |  97 % done[A
+ | |  98 % done[A
+ | |  99 % done[A
+ | | 100 % done[A
+ | done!                 
+ |
+ | generating visualisation output
+ | done!                 
+ |
+ | monochromatic Monte-Carlo RT to create images/sed's
+ | | Peel-off technique enabled
+ | | | - wavelength :   8.257 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :   8.616 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :   8.991 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :   9.382 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :   9.789 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :  10.215 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :  10.659 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :  11.123 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :  11.606 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :  12.111 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :  12.637 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :  13.187 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | | | - wavelength :  13.760 micron
+ | | | | - progress :   1 % done...[A
+ | | | | - progress :   2 % done...[A
+ | | | | - progress :   3 % done...[A
+ | | | | - progress :   4 % done...[A
+ | | | | - progress :   5 % done...[A
+ | | | | - progress :   6 % done...[A
+ | | | | - progress :   7 % done...[A
+ | | | | - progress :   8 % done...[A
+ | | | | - progress :   9 % done...[A
+ | | | | - progress :  10 % done...[A
+ | | | | - progress :  11 % done...[A
+ | | | | - progress :  12 % done...[A
+ | | | | - progress :  13 % done...[A
+ | | | | - progress :  14 % done...[A
+ | | | | - progress :  15 % done...[A
+ | | | | - progress :  16 % done...[A
+ | | | | - progress :  17 % done...[A
+ | | | | - progress :  18 % done...[A
+ | | | | - progress :  19 % done...[A
+ | | | | - progress :  20 % done...[A
+ | | | | - progress :  21 % done...[A
+ | | | | - progress :  22 % done...[A
+ | | | | - progress :  23 % done...[A
+ | | | | - progress :  24 % done...[A
+ | | | | - progress :  25 % done...[A
+ | | | | - progress :  26 % done...[A
+ | | | | - progress :  27 % done...[A
+ | | | | - progress :  28 % done...[A
+ | | | | - progress :  29 % done...[A
+ | | | | - progress :  30 % done...[A
+ | | | | - progress :  31 % done...[A
+ | | | | - progress :  32 % done...[A
+ | | | | - progress :  33 % done...[A
+ | | | | - progress :  34 % done...[A
+ | | | | - progress :  35 % done...[A
+ | | | | - progress :  36 % done...[A
+ | | | | - progress :  37 % done...[A
+ | | | | - progress :  38 % done...[A
+ | | | | - progress :  39 % done...[A
+ | | | | - progress :  40 % done...[A
+ | | | | - progress :  41 % done...[A
+ | | | | - progress :  42 % done...[A
+ | | | | - progress :  43 % done...[A
+ | | | | - progress :  44 % done...[A
+ | | | | - progress :  45 % done...[A
+ | | | | - progress :  46 % done...[A
+ | | | | - progress :  47 % done...[A
+ | | | | - progress :  48 % done...[A
+ | | | | - progress :  49 % done...[A
+ | | | | - progress :  50 % done...[A
+ | | | | - progress :  51 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  52 % done...[A
+ | | | | - progress :  54 % done...[A
+ | | | | - progress :  55 % done...[A
+ | | | | - progress :  56 % done...[A
+ | | | | - progress :  57 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  58 % done...[A
+ | | | | - progress :  60 % done...[A
+ | | | | - progress :  61 % done...[A
+ | | | | - progress :  62 % done...[A
+ | | | | - progress :  63 % done...[A
+ | | | | - progress :  64 % done...[A
+ | | | | - progress :  65 % done...[A
+ | | | | - progress :  66 % done...[A
+ | | | | - progress :  67 % done...[A
+ | | | | - progress :  68 % done...[A
+ | | | | - progress :  69 % done...[A
+ | | | | - progress :  70 % done...[A
+ | | | | - progress :  71 % done...[A
+ | | | | - progress :  72 % done...[A
+ | | | | - progress :  73 % done...[A
+ | | | | - progress :  74 % done...[A
+ | | | | - progress :  75 % done...[A
+ | | | | - progress :  76 % done...[A
+ | | | | - progress :  77 % done...[A
+ | | | | - progress :  78 % done...[A
+ | | | | - progress :  79 % done...[A
+ | | | | - progress :  80 % done...[A
+ | | | | - progress :  81 % done...[A
+ | | | | - progress :  82 % done...[A
+ | | | | - progress :  83 % done...[A
+ | | | | - progress :  84 % done...[A
+ | | | | - progress :  85 % done...[A
+ | | | | - progress :  86 % done...[A
+ | | | | - progress :  87 % done...[A
+ | | | | - progress :  88 % done...[A
+ | | | | - progress :  89 % done...[A
+ | | | | - progress :  90 % done...[A
+ | | | | - progress :  91 % done...[A
+ | | | | - progress :  92 % done...[A
+ | | | | - progress :  93 % done...[A
+ | | | | - progress :  94 % done...[A
+ | | | | - progress :  95 % done...[A
+ | | | | - progress :  96 % done...[A
+ | | | | - progress :  97 % done...[A
+ | | | | - progress :  98 % done...[A
+ | | | | - progress :  99 % done...[A
+ | | | | - progress : 100 % done...[A
+ | done!                 
+ |
+ | raytracing
+ | | check for pixel
+ | | |   1 % done[A
+ | | |   2 % done[A
+ | | |   3 % done[A
+ | | |   4 % done[A
+ | | |   5 % done[A
+ | | |   6 % done[A
+ | | |   7 % done[A
+ | | |   8 % done[A
+ | | |   9 % done[A
+ | | |  10 % done[A
+ | | |  11 % done[A
+ | | |  12 % done[A
+ | | |  13 % done[A
+ | | |  14 % done[A
+ | | |  15 % done[A
+ | | |  16 % done[A
+ | | |  17 % done[A
+ | | |  18 % done[A
+ | | |  19 % done[A
+ | | |  20 % done[A
+ | | |  21 % done[A
+ | | |  22 % done[A
+ | | |  23 % done[A
+ | | |  24 % done[A
+ | | |  25 % done[A
+ | | |  26 % done[A
+ | | |  27 % done[A
+ | | |  28 % done[A
+ | | |  29 % done[A
+ | | |  30 % done[A
+ | | |  31 % done[A
+ | | |  32 % done[A
+ | | |  33 % done[A
+ | | |  34 % done[A
+ | | |  35 % done[A
+ | | |  36 % done[A
+ | | |  37 % done[A
+ | | |  38 % done[A
+ | | |  39 % done[A
+ | | |  40 % done[A
+ | | |  41 % done[A
+ | | |  42 % done[A
+ | | |  43 % done[A
+ | | |  44 % done[A
+ | | |  45 % done[A
+ | | |  46 % done[A
+ | | |  47 % done[A
+ | | |  48 % done[A
+ | | |  49 % done[A
+ | | |  50 % done[A
+ | | |  51 % done[A
+ | | |  52 % done[A
+ | | |  52 % done[A
+ | | |  54 % done[A
+ | | |  55 % done[A
+ | | |  56 % done[A
+ | | |  57 % done[A
+ | | |  58 % done[A
+ | | |  58 % done[A
+ | | |  60 % done[A
+ | | |  61 % done[A
+ | | |  62 % done[A
+ | | |  63 % done[A
+ | | |  64 % done[A
+ | | |  65 % done[A
+ | | |  66 % done[A
+ | | |  67 % done[A
+ | | |  68 % done[A
+ | | |  69 % done[A
+ | | |  70 % done[A
+ | | |  71 % done[A
+ | | |  72 % done[A
+ | | |  73 % done[A
+ | | |  74 % done[A
+ | | |  75 % done[A
+ | | |  76 % done[A
+ | | |  77 % done[A
+ | | |  78 % done[A
+ | | |  79 % done[A
+ | | |  80 % done[A
+ | | |  81 % done[A
+ | | |  82 % done[A
+ | | |  83 % done[A
+ | | |  84 % done[A
+ | | |  85 % done[A
+ | | |  86 % done[A
+ | | |  87 % done[A
+ | | |  88 % done[A
+ | | |  89 % done[A
+ | | |  90 % done[A
+ | | |  91 % done[A
+ | | |  92 % done[A
+ | | |  93 % done[A
+ | | |  94 % done[A
+ | | |  95 % done[A
+ | | |  96 % done[A
+ | | |  97 % done[A
+ | | |  98 % done[A
+ | | |  99 % done[A
+ | | | 100 % done[A
+ | | do raytrace with  161476 (sub)-pixel 
+ | | calculating continuum maps
+ | | |   0 % done[A
+ | | |   1 % done[A
+ | | |   2 % done[A
+ | | |   3 % done[A
+ | | |   4 % done[A
+ | | |   5 % done[A
+ | | |   6 % done[A
+ | | |   7 % done[A
+ | | |   8 % done[A
+ | | |   9 % done[A
+ | | |  10 % done[A
+ | | |  11 % done[A
+ | | |  12 % done[A
+ | | |  13 % done[A
+ | | |  14 % done[A
+ | | |  15 % done[A
+ | | |  16 % done[A
+ | | |  17 % done[A
+ | | |  18 % done[A
+ | | |  19 % done[A
+ | | |  20 % done[A
+ | | |  21 % done[A
+ | | |  22 % done[A
+ | | |  23 % done[A
+ | | |  24 % done[A
+ | | |  25 % done[A
+ | | |  26 % done[A
+ | | |  27 % done[A
+ | | |  28 % done[A
+ | | |  29 % done[A
+ | | |  30 % done[A
+ | | |  31 % done[A
+ | | |  32 % done[A
+ | | |  33 % done[A
+ | | |  34 % done[A
+ | | |  35 % done[A
+ | | |  36 % done[A
+ | | |  37 % done[A
+ | | |  38 % done[A
+ | | |  39 % done[A
+ | | |  40 % done[A
+ | | |  41 % done[A
+ | | |  42 % done[A
+ | | |  43 % done[A
+ | | |  44 % done[A
+ | | |  45 % done[A
+ | | |  46 % done[A
+ | | |  47 % done[A
+ | | |  48 % done[A
+ | | |  49 % done[A
+ | | |  50 % done[A
+ | | |  51 % done[A
+ | | |  52 % done[A
+ | | |  53 % done[A
+ | | |  54 % done[A
+ | | |  55 % done[A
+ | | |  56 % done[A
+ | | |  57 % done[A
+ | | |  58 % done[A
+ | | |  59 % done[A
+ | | |  60 % done[A
+ | | |  61 % done[A
+ | | |  62 % done[A
+ | | |  63 % done[A
+ | | |  64 % done[A
+ | | |  65 % done[A
+ | | |  66 % done[A
+ | | |  67 % done[A
+ | | |  68 % done[A
+ | | |  69 % done[A
+ | | |  70 % done[A
+ | | |  71 % done[A
+ | | |  72 % done[A
+ | | |  73 % done[A
+ | | |  74 % done[A
+ | | |  75 % done[A
+ | | |  76 % done[A
+ | | |  77 % done[A
+ | | |  78 % done[A
+ | | |  79 % done[A
+ | | |  80 % done[A
+ | | |  81 % done[A
+ | | |  82 % done[A
+ | | |  83 % done[A
+ | | |  84 % done[A
+ | | |  85 % done[A
+ | | |  86 % done[A
+ | | |  87 % done[A
+ | | |  88 % done[A
+ | | |  89 % done[A
+ | | |  90 % done[A
+ | | |  91 % done[A
+ | | |  92 % done[A
+ | | |  93 % done[A
+ | | |  94 % done[A
+ | | |  95 % done[A
+ | | |  96 % done[A
+ | | |  97 % done[A
+ | | |  98 % done[A
+ | | |  99 % done[A
+ | | | 100 % done[A
+ | | | saving continuum maps
+ | | done!
+ | done! 
+ |
+ simulation DTauRin=0.07L=1T=4050_mono took  7h  7m 15.22s    (  25635.22sec)
+ omp_get_wtime:   3226.    
+ 
+ Bye bye
+ 
+ ======================================================
+ Mol3D                                         Welcome!
+
+ git commit: 
+ 5a224434274c1821a4953f3d6df555137cda9646
+ ======================================================
+ Code initialization
+ Simulation name: DTauRin=0.07L=10T=4050_temp_n
+ Parallel mode, using:   8 cores
+ tabulating: - right side of energy equation
+             - planck function               [this may take a while]
+ Number of dust components included  :   1
+ Number of radiation sources included:   1
+ Total Luminosity : 10.00 L_sun
+ grid type: spherical, type: 1
+ Number of ESCs:        10100
+ Code initialization done !
+ preparing grid [this may take a while]
+                                                              
+ dust mass           :  3.0000E-03 M_sun
+ 
+ H2 mass             :  2.9659E-01 M_sun
+          orthogonal :  2.2244E-01 M_sun
+            parallel :  7.4147E-02 M_sun
+ 
+ molecule mass       :  4.1195E-04 M_sun
+ ---------------------------------------
+ total disk mass     :  3.0000E-01 M_sun
+ 
+ smallest step width :  4.4409E-13 AU                              
+ 
+ starting simulation
+ |
+ | temperature calculation
+ | | calculate temperature with Monte Carlo method
+ | | Peel-off technique enabled
+ | | | starting photon transfer ... [this may take a while]

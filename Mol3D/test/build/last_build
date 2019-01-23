@@ -1,0 +1,6 @@
+Mo 5. Nov 16:25:41 CET 2018
+Compiler:   ifort
+Build Type: para
+CFLAGS:     -ip -ipo -O3 -axAVX -openmp
+DEPFLAGS:   -module ./build/ -I./build/ -L./../cfitsio -lcfitsio
+Source dir: ./src/

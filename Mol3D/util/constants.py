@@ -12,7 +12,11 @@ wavelengths = [2.118170, 10.54976, 849.4667]
 ### Plots Formatting ###
 fontsize = 16.0
 legend_fontsize=13.0
-pgf_with_latex = {                      # setup matplotlib to use latex for output
+markersize = 5
+pgf_with_latex = {
+     "grid.color": "gray",
+     "grid.linewidth": "0.5",
+     "grid.linestyle": "-",
      "axes.labelsize": fontsize,               # LaTeX default is 10pt font.
      "axes.titlesize": fontsize,               # LaTeX default is 10pt font.
      "font.size": fontsize,
@@ -23,7 +27,7 @@ pgf_with_latex = {                      # setup matplotlib to use latex for outp
      #~ "figure.figsize": figsize(1.0),     # default fig size of 0.9 textwidth
      "lines.linewidth": 1,                # Make linewidth a little bigger
      "lines.markeredgewidth": 3,     # the line width around the marker symbol
-     "lines.markersize"  : fontsize,            # markersize, in points
+     "lines.markersize": markersize,            # markersize, in points
      "text.usetex" : True,
      "text.latex.preamble": "\\usepackage{lmodern}", #Used in .tex-document
      "backend": "PDF",

@@ -31,7 +31,7 @@ do_MC_temperature = {T}                   calculate dust temperature (+)
 do_continuum_mono = {F}                   make monochromatic continuum !scattering! maps and seds
                                           using a Monte Carlo method (+)
 
-do_peel_off = {F}                         peel of photons for high signal to noise sed's and maps
+do_peel_off = {T}                         peel of photons for high signal to noise sed's and maps
                                           while temperature calculation while temperature
                                           calculation or for the monochromatic transfer (+)
 
@@ -40,19 +40,19 @@ do_continuum_raytrace = {F}               make continuum maps and sed's using a 
 do_velo_ch_map = {F}                      make velocity-channel maps and spectra (+)
 
 r_in   = {1.0}                            inner radius
-r_ou   = {200}                            outer radius
-mass_dust = {1e-5}                        dust mass of disk
+r_ou   = {350}                            outer radius
+mass_dust = {3e-3}                        dust mass of disk
 
 T_star = {4000.0}                         effective Temperature
 R_star = {2}                              radius of star in stellar radii
 M_star = {0.7}                            stellar mass
 
 distance  = {140.0}                       object distance [pc]
-n_bin_map = {500}                         half number of pixel, total pixel = 2 * n_bin_map + 1
-no_photon = {1000000}                      total number of photons (min ~10 * No of cells)
+n_bin_map = {200}                         half number of pixel, total pixel = 2 * n_bin_map + 1
+no_photon = {100000}                      total number of photons (min ~10 * No of cells)
 th_map = {1.0}                            inclination to observer
 ph_map = {0.0}
-zoom_map = {10.0}
+zoom_map = {10}
 
 molratio = {99.0}                         gas-dust mass ratio
 abundance = {1e-4}                        selected molecule number abundance relative to H2
@@ -64,7 +64,7 @@ vel_max = {1500.0}                        max velocity in spectrum (in m/s
 v_turb = {100}                            turbulent velocity (in m/s)'
 
 gas_cat_name = {co.dat}                   gas catalog name (in input/mol) (Leiden database style)
-dust_cat_name = {mrn---v4}                dust catalog name (in input/dust) (in mc3d style)
+dust_cat_name = {mrn--250}                dust catalog name (in input/dust) (in mc3d style)
 grid_name = {spherical}                   possible values: spherical (+), cylindrical (+), cartesian (o)
 grid_type = {1}                           default = 1, 2 and higher values for user defined grids
                                                     9 is reserved for a grid defined in a text file (+)
