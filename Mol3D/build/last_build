@@ -1,4 +1,4 @@
-marţi 22 ianuarie 2019, 13:47:55 +0100
+Mi 23. Jan 15:54:54 CET 2019
 Compiler:   ifort
 Build Type: para
 CFLAGS:     -ip -ipo -O3 -axAVX -qopenmp
